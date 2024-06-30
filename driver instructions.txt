@@ -1,0 +1,1 @@
+with the new selenium you don't need to specify the driver 
