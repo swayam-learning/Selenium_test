@@ -17,9 +17,9 @@ WebDriverWait(driver,10).until(EC.presence_of_element_located((By.CLASS_NAME,"gL
 
 input_element = driver.find_element(By.CLASS_NAME,"gLFyf")
 input_element.clear() # we do this to clear anything already present
-input_element.send_keys("learning swayam"+Keys.ENTER) #because this just appends rather than clearing and writting again
+input_element.send_keys("Swayam Swarup Barik Linkedin"+Keys.ENTER) #because this just appends rather than clearing and writting again
 
-link = driver.find_element(By.PARTIAL_LINK_TEXT,"Swayam Central")#we are going to access alink if it has the text 
+link = driver.find_element(By.PARTIAL_LINK_TEXT,"Swayam swarup Barik - Phagwara, Punjab, India")#we are going to access alink if it has the text 
 # if we use By.LINK_TEXT then we try to find the exact text
 link.click()
 time.sleep(10)
